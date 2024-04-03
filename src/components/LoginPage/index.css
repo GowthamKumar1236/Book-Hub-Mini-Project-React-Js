@@ -1,0 +1,182 @@
+.login-bg-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-image-container {
+  display: none;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.website-login {
+  width: 216px;
+  height: 216px;
+  margin-top: 20px;
+  color: #c4c4c4;
+}
+
+.logo-image {
+  width: 104px;
+  height: 28px;
+  margin-top: 10px;
+}
+
+.form {
+  max-width: 300px;
+  height: 90px;
+  padding: 3px 0px 0px 0px;
+}
+
+.input-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.label-names {
+  width: 94px;
+  height: 19px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+  color: #5a7184;
+}
+
+.input-user {
+  width: 300px;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid #c3cad9;
+  background-color: #ffffff;
+  font-family: Inter;
+  font-size: 12px;
+  color: #183b56;
+  font-weight: 400;
+}
+
+.input-password {
+  width: 300px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 1px solid #c3cad9;
+  font-family: Inter;
+  font-size: 12px;
+  color: #183b56;
+  font-weight: 400;
+}
+
+.error-msg {
+  font-family: 'HK Grotesk';
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+  width: 280px;
+  height: 16px;
+  color: #ef4444;
+}
+
+.login-button-container {
+  margin-top: 20px;
+}
+
+.login-btn {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: 700;
+  background-color: #0284c7;
+  text-align: center;
+  border: 1px solid #0284c7;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .login-bg-container {
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f8fafc;
+    width: 1440px;
+    height: 1024px;
+    padding: 0px 89px 0px 0px;
+  }
+
+  .website-login {
+    display: none;
+  }
+
+  .login-image-container {
+    display: block;
+    align-self: flex-start;
+  }
+
+  .login-desktop {
+    width: 780px;
+    height: 1024px;
+  }
+
+  .form-container {
+    align-self: center;
+    margin-left: auto;
+    width: 489px;
+    height: 474px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+
+  .logo-image {
+    width: 141px;
+    height: 48px;
+    margin-top: 60px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+  }
+
+  .input-content {
+    width: 360px;
+  }
+
+  .input-user {
+    width: 360px;
+    height: 56px;
+    font-family: 16px;
+  }
+
+  .label-names {
+    font-family: 18px;
+  }
+
+  .input-password {
+    width: 360px;
+    height: 56px;
+    font-family: 15px;
+  }
+
+  .error-msg {
+    font-size: 16px;
+  }
+
+  .login-btn {
+    width: 360px;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}

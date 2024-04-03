@@ -1,0 +1,127 @@
+.navbar-container {
+  background-color: #ffffff;
+  max-height: 55px;
+  width: 100vw;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin: 0px;
+}
+
+.website-logo {
+  width: 92px;
+  height: 24px;
+}
+
+.nav-item-link {
+  text-decoration: none;
+  color: #64748b;
+}
+
+.text {
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 500;
+  text-align: left;
+}
+
+.logout-btn {
+  width: 73px;
+  height: 32px;
+  padding: 8px 16px 8px 16px;
+  gap: 8px;
+  border-radius: 5px;
+  background-color: #0284c7;
+  border-style: solid;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.menu-icon {
+  color: #475569;
+  width: 16px;
+  height: 16px;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.mobile-items-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-bottom: 0px;
+}
+
+.desktop-items-container {
+  display: none;
+}
+
+.close-icon {
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #334155;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-container {
+    width: 100%;
+    max-height: 75px;
+  }
+
+  .header-container {
+    align-items: center;
+    padding-left: 45px;
+    padding-right: 45px;
+    width: 900px;
+  }
+
+  .desktop-items-container {
+    display: flex;
+    width: 40%;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobile-items-container {
+    display: none;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 2560px) {
+  .header-container {
+    width: 100%;
+    padding-left: 300px;
+    padding-right: 320px;
+  }
+
+  .desktop-items-container {
+    width: 32%;
+  }
+
+  .text {
+    margin-right: 30px;
+  }
+}
